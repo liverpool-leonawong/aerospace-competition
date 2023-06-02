@@ -29,3 +29,17 @@ body {
       @include coverer;
     }
   }
+
+  .logo {
+    background-image: url(/public/assets/logo_dxne_h_white.svg);
+    background-repeat: no-repeat;
+    background-size: auto 30px;
+    width: 180px;
+    height: 30px;
+  }
+
+  #menu {
+    @apply lowercase items-center text-white;
+    font-weight: 500;
+    font-size: 1rem;
+  }
