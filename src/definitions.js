@@ -8,4 +8,6 @@ export const ROUTES = {
     PARTNERS: '/partners',
     CONTACT: '/contact',
     SIGNIN: '',
+    POST: 'post',
+    TESTPOST: 'testpost',
   };

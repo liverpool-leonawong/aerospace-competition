@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => {
+const BGVideo = () => {
 
   return (
     <>
@@ -19,3 +19,5 @@ export default () => {
     </>
   );
 };
+
+export default BGVideo;

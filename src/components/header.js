@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ROUTES } from '../definitions';
 
-export default () => {
+const Header = () => {
 
   return (
     <>
       <header className="sticky top-0 z-50">
-        <nav className="container flex mx-auto py-5 items-center">
+        <nav className="flex mx-auto px-8 py-5 items-center">
             <div id="logo" className="flex">
               <Link className="logo" to="/" />
             </div>
@@ -21,8 +21,8 @@ export default () => {
               <Link className="px-3" to={ROUTES.PARTNERS}>partners</Link>
               <Link className="px-3" to={ROUTES.CONTACT}>contact</Link>
             </div>
-            <div id="sign-in" className="ml-auto text-black flex items-center">
-              <button className="btn lowercase">
+            <div id="sign-in" className="ml-auto flex items-center">
+              <button className="btn btn-primary btn-sign-in">
                 sign in
               </button>
             </div>
@@ -31,3 +31,5 @@ export default () => {
     </>
   );
 };
+
+export default Header;
