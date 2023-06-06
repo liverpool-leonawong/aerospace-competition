@@ -2,7 +2,7 @@ import './App.css';
 import { ROUTES } from './definitions';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './views/home';
-import News from './views/news_x';
+import News from './views/news';
 import Post from './views/post';
 import TestPost from './views/testPost';
 
