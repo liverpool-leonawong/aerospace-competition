@@ -9,5 +9,7 @@ export const ROUTES = {
     CONTACT: '/contact',
     SIGNIN: '',
     POST: 'post',
-    TESTPOST: 'testpost',
+    INFO: '/info',
+    FAQ: '/faq',
+    GALLERY: '/gallery'
   };

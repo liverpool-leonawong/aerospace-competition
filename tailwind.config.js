@@ -15,7 +15,17 @@ module.exports = {
       'gray': '#666666',
       'gray-light': '#d3dce6',
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateY(0)' },
+          '30%': { transform: 'translateY(20px)' },
+        }
+      },
+      animation: {
+        scroll: 'scroll 1.5s ease infinite',
+      }
+    }
   },
   plugins: [
     require('postcss-import'),
