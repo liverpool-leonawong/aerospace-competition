@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import Accordion from '../Accordion';
+import Accordion from '../Common/Accordion';
 
 function FAQ () {
   return (

@@ -1,11 +1,11 @@
-import Header from '../components/common/Header';
-import FSBackground from '../components/FSBackground';
+import Header from '../components/common/header';
+import FSBackground from '../components/common/FSBackground';
 import Objective from '../components/Home/Objective';
 import Schedule from '../components/Home/Schedule';
 import Information from '../components/Home/Info';
 import FAQ from '../components/Home/FAQs';
 import Partners from '../components/Home/Partners';
-import Footer from '../components/Footer';
+import Footer from '../components/common/Footer';
 import ScrollSpy from "react-ui-scrollspy";
 
 
