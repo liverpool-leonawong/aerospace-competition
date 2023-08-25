@@ -8,8 +8,8 @@
   
   .accordion_item {
     width: 100%;
-    max-height: 25px;
-    padding: 1rem 1.2rem 2.25rem 1.2rem;
+    max-height: 100%;
+    padding: 1rem 1.2rem 2.5rem 1.2rem;
     border-bottom: 1px solid #efefef;
     color: #fff;
     overflow: hidden;
@@ -24,9 +24,9 @@
   
   .accordion_header h4 {
     transition: 0.2s ease-in-out;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
   }
   
   .accordion_header i {
@@ -36,15 +36,16 @@
   }
   
   .accordion_header:hover h4 {
-    color: #e79200!important;
+    color: rgb(255,153,0)!important;
   }
   
   .accordion_header:hover i {
-    color: #e79200!important;
+    color: rgb(255,153,0)!important;
   }
   
   .accordion_content {
     margin: 5px;
+    font-size: 18px;
     @apply text-black;
   }
   
@@ -53,6 +54,6 @@
         font-size: 30px;
     }
     .accordion_item {
-        width: 80%;
+        width: 100%;
     }
   }

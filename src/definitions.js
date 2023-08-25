@@ -1,15 +1,10 @@
 export const ROUTES = {
-    ABOUT: '/about',
-    PROGRAMS: '/programs',
-    TOURS: '/tours',
-    SCHEDULE: '/schedule',
-    NEWS: '/news',
+    OBJECTIVE: '#objective',
+    SCHEDULE: '#schedule',
     RESOURCES: '/resources',
-    PARTNERS: '/partners',
-    CONTACT: '/contact',
+    PARTNERS: '#partners',
     SIGNIN: '',
-    POST: 'post',
-    INFO: '/info',
-    FAQ: '/faq',
-    GALLERY: '/gallery'
+    INFO: '#information',
+    FAQ: '#faq',
+    GALLERY: '#gallery'
   };

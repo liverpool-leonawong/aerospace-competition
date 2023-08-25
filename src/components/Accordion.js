@@ -20,8 +20,8 @@ function Accordion(props) {
   //open animation with react spring
 
   const openAnimation = useSpring({
-    from: { opacity: "0", maxHeight: "25px" },
-    to: { opacity: "1", maxHeight: open ? "200px" : "25px" },
+    from: { opacity: "0", maxHeight: "88px" },
+    to: { opacity: "1", maxHeight: open ? "100%" : "45px" },
     config: { duration: "300" }
   });
 
@@ -33,7 +33,7 @@ function Accordion(props) {
     },
     to: {
       transform: open ? "rotate(180deg)" : "rotate(0deg)",
-      color: open ? "#e79200" : "#000000"
+      color: open ? "#ff9900" : "#000000"
     },
     config: { duration: "120" }
   });
@@ -41,7 +41,7 @@ function Accordion(props) {
   return (
     <animated.div className="accordion_item" style={openAnimation}>
       <div className="accordion_header" onClick={toggleHandler}>
-        <h4 style={styles.accordionTitle}>{props.title}</h4>
+        <h4 className="faqTitle" style={styles.accordionTitle}>{props.title}</h4>
         <animated.i style={iconAnimation}>
           <ExpandMoreRounded />
         </animated.i>

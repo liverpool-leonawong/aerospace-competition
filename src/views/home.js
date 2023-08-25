@@ -1,4 +1,4 @@
-import Header from '../components/Header';
+import Header from '../components/common/Header';
 import FSBackground from '../components/FSBackground';
 import Objective from '../components/Home/Objective';
 import Schedule from '../components/Home/Schedule';
@@ -6,6 +6,7 @@ import Information from '../components/Home/Info';
 import FAQ from '../components/Home/FAQs';
 import Partners from '../components/Home/Partners';
 import Footer from '../components/Footer';
+import ScrollSpy from "react-ui-scrollspy";
 
 
 const Home = () => {
@@ -18,11 +19,13 @@ const Home = () => {
             </div>
             <main className="content">
                 <div className="container mx-auto my-12">
+                    <ScrollSpy scrollThrottle={200} useBoxMethod={false}>
                     <Objective />
                     <Schedule />
                     <Information />
                     <FAQ />
                     <Partners />
+                    </ScrollSpy>
                 </div>
             </main>
             <Footer />

@@ -5,12 +5,17 @@
   @apply px-4 py-2 rounded;
   &.btn-primary {
     border: 1px solid white;
+    &.change {
+      border: 1px solid black;
+    }
   }
   &.btn-sign-in {
     @apply lowercase text-white;
-    &:hover {
-      background: white;
+    &.change {
       @apply text-black;
+    }
+    &:hover {
+      color: rgb(255,153,0);
     }
   }
 }

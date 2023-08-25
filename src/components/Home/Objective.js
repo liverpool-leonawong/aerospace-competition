@@ -8,22 +8,22 @@ const Objective = () => {
         <div class="container mx-auto text-center">
           <h1>比賽目的</h1>
         </div>
-        <div class="columns-4 my-12 gap-16">
-          <div class="items-center space-y-4">
-            <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="推動STEAM科學" className="rounded-full max-w-full h-auto align-middle border-none" />
-            <p className="text-lg text-center">推動STEAM科學</p>
+        <div class="mt-4 mb-8 sm:columns-2 sm:gap-8 md:columns-4 md:gap-12 lg:columns-4 lg:gap-16">
+          <div class="items-center space-y-2">
+            <img src="/assets/icon_steam.svg" alt="推動STEAM科學" className="rounded-full max-w-full h-auto align-middle border-none" />
+            <p className="object-title">推動STEAM教學</p>
           </div>
-          <div class="items-center space-y-4">
-            <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="推動STEAM科學" className="rounded-full max-w-full h-auto align-middle border-none" />
-            <p className="text-lg text-center">推行編程教育</p>
+          <div class="items-center space-y-2">
+            <img src="/assets/icon_programming.svg" alt="推行編程教育" className="rounded-full max-w-full h-auto align-middle border-none" />
+            <p className="object-title">推行編程教育</p>
           </div>
-          <div class="items-center space-y-4">
-            <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="推動STEAM科學" className="rounded-full max-w-full h-auto align-middle border-none" />
-            <p className="text-lg text-center">致力為孩子創造機遇</p>
+          <div class="items-center space-y-2">
+            <img src="/assets/icon_opportunity.svg" alt="致力為孩子創造機遇" className="rounded-full max-w-full h-auto align-middle border-none" />
+            <p className="object-title">為孩子創造機遇</p>
           </div>
-          <div class="items-center space-y-4">
-            <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="推動STEAM科學" className="rounded-full max-w-full h-auto align-middle border-none" />
-            <p className="text-lg text-center">培養愛國情懷</p>
+          <div class="items-center space-y-2">
+            <img src="/assets/icon_cultivate.svg" alt="培養愛國情懷" className="rounded-full max-w-full h-auto align-middle border-none" />
+            <p className="object-title">培養愛國情懷</p>
           </div>
         </div>
       </div>

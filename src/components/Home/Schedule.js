@@ -14,65 +14,66 @@ const Schedule = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(231,146,0)' }}
-              iconStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid rgb(255,153,0)' }}
+              iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<AppRegistrationRounded />}
             >
-              <h2 className="vertical-timeline-element-title">2023.9.1 - 2024.2.29</h2>
-              <h3 className="vertical-timeline-element-subtitle">開始報名</h3>
+              <h1 className="vertical-timeline-element-title">2023.9.15</h1>
+              <h2 className="vertical-timeline-element-subtitle">開始報名</h2>
+              <div>[截止日期：2024.2.29]</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(231,146,0)' }}
-              iconStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid rgb(255,153,0)' }}
+              iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<InterpreterModeRounded />}
             >
-              <h2 className="vertical-timeline-element-title">2023.11</h2>
-              <h3 className="vertical-timeline-element-subtitle">比賽簡介會（香港）</h3>
+              <h1 className="vertical-timeline-element-title">2023.11</h1>
+              <h2 className="vertical-timeline-element-subtitle">比賽簡介會（香港）</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(231,146,0)' }}
-              iconStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid rgb(255,153,0)' }}
+              iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<TerminalRounded />}
             >
-              <h2 className="vertical-timeline-element-title">2024.4</h2>
-              <h3 className="vertical-timeline-element-subtitle">完成火星探測車編程訓練班</h3>
+              <h1 className="vertical-timeline-element-title">2024.3</h1>
+              <h2 className="vertical-timeline-element-subtitle">完成火星探測車編程訓練班</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(231,146,0)' }}
-              iconStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid rgb(255,153,0)' }}
+              iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<SmartToyRounded />}
             >
-              <h2 className="vertical-timeline-element-title">2024.4</h2>
-              <h3 className="vertical-timeline-element-subtitle">香港區航天機械人編程大賽</h3>
+              <h1 className="vertical-timeline-element-title">2024.4</h1>
+              <h2 className="vertical-timeline-element-subtitle">香港區航天機械人編程大賽</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(231,146,0)' }}
-              iconStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid rgb(255,153,0)' }}
+              iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<WorkspacesRounded />}
             >
-              <h2 className="vertical-timeline-element-title">2024.6</h2>
-              <h3 className="vertical-timeline-element-subtitle">大灣區比賽開幕禮</h3>
-              <h3 className="vertical-timeline-element-subtitle">大灣區比賽工作坊</h3>
+              <h1 className="vertical-timeline-element-title">2024.6</h1>
+              <h2 className="vertical-timeline-element-subtitle">大灣區比賽開幕禮</h2>
+              <h2 className="vertical-timeline-element-subtitle">大灣區比賽工作坊</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(231,146,0)' }}
-              iconStyle={{ background: 'rgb(231,146,0)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid rgb(255,153,0)' }}
+              iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<TourRounded />}
             >
-              <h2 className="vertical-timeline-element-title">2024.7</h2>
-              <h3 className="vertical-timeline-element-subtitle">大灣區航天機械人編程大賽</h3>
-              <h3 className="vertical-timeline-element-subtitle">大灣區航天科技交流團</h3>
+              <h1 className="vertical-timeline-element-title">2024.7</h1>
+              <h2 className="vertical-timeline-element-subtitle">大灣區航天機械人編程大賽</h2>
+              <h2 className="vertical-timeline-element-subtitle">大灣區航天科技交流團</h2>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
