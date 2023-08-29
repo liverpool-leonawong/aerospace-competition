@@ -8,6 +8,10 @@
     &.change {
       border: 1px solid black;
     }
+    &:hover {
+      background: rgba(255,255,255,0.8);
+      @apply text-black;
+    }
   }
   &.btn-sign-in {
     @apply lowercase text-white;

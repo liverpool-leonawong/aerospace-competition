@@ -3,7 +3,8 @@ import FSBackground from '../components/common/FSBackground';
 import Objective from '../components/Home/Objective';
 import Schedule from '../components/Home/Schedule';
 import Information from '../components/Home/Info';
-import FAQ from '../components/Home/FAQs';
+import Gallery from '../components/Home/Gallery';
+import FAQ from '../components/Home/FAQ';
 import Partners from '../components/Home/Partners';
 import Footer from '../components/common/Footer';
 import ScrollSpy from "react-ui-scrollspy";
@@ -23,6 +24,7 @@ const Home = () => {
                     <Objective />
                     <Schedule />
                     <Information />
+                    <Gallery />
                     <FAQ />
                     <Partners />
                     </ScrollSpy>

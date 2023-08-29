@@ -1,22 +1,38 @@
 import cx from 'classnames';
 import React from 'react';
+import { ExpandMoreRounded, ExpandLessRounded } from '@mui/icons-material';
+import { useSpring, animated } from "react-spring";
 
 export default ({ item, index, className }) => {
   const [isOpen, setIsOpen] = React.useState(index === 0 ? true : false);
+  let toggleHandler = (e) => {
+    //switch state
+    setIsOpen(!isOpen);
+  };
+  //conditional styling
+  const styles = {
+    //if open is true, change color of title
+    collapseTitle: {
+      color: isOpen ? "#ff9900" : "#000000"
+    }
+  };
+  const openAnimation = useSpring({
+    from: { opacity: "0"},
+    to: { opacity: "1"},
+    config: { duration: "300" }
+  });
 
   return (
-    <div className={cx('faq_box', className)}>
-      <div className="faq_table" onClick={() => setIsOpen(!isOpen)}>
+    <div className={cx('faq_box', className)} style={openAnimation}>
+      <div className="faq_table" onClick={toggleHandler} style={styles.collapseTitle}>
         <h3 className="faq_question">Q{index + 1}</h3>
         <h3 className="faq_question">{item.title}</h3>
         {isOpen ? (
-          <span className="material-icons md-expand-down ml-auto">keyboard_arrow_down</span>
+          <ExpandLessRounded sx={{ fontSize: 32 }} />
         ) : (
-          <span className="material-icons md-expand-up ml-auto">keyboard_arrow_right</span>
+          <ExpandMoreRounded sx={{ fontSize: 32 }} />
         )}
       </div>
-      <hr className="mb-3" />
-
       {isOpen && (
         <>
           <div className="faq_table">
@@ -26,6 +42,7 @@ export default ({ item, index, className }) => {
           </div>
         </>
       )}
+      <hr className="mb-3" />
     </div>
   );
 };

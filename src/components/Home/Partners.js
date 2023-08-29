@@ -4,10 +4,10 @@ import { React } from 'react';
 const Partners = () => {
   return (
     <div id="partners" className="main">
-        <div class="container mx-auto text-center mt-16 mb-8">
-          <h1>合作夥伴</h1>
+        <div class="container mx-auto text-center mb-5">
+          <div class="flex items-center justify-center mt-16 my-5 px-10"><img src="/assets/title_partners.svg" width="480px" alt="合作夥伴"></img></div>
         </div>
-      <div className="grid items-center mt-12 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10 md:grid-cols-3 md:gap-x-4 md:gap-y-12 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-12">
+      <div className="grid items-center mt-12 px-30 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-10 sm:px-8 md:grid-cols-3 md:gap-x-4 md:gap-y-12 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-12 xl:px-40">
       <img src="/assets/logo_ired.webp" alt="iReds" className="h-auto align-middle border-none justify-self-center" width="120"/>
       <img src="/assets/logo_hkte.svg" alt="HKTE" className="h-auto align-middle border-none justify-self-center" width="160" />
       <img src="/assets/logo_checkpoint.png" alt="Checkpoint" className="h-auto align-middle border-none justify-self-center" width="180"  />

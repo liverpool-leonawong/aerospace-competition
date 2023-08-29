@@ -7,8 +7,8 @@ const Schedule = () => {
   return (
     <>
       <div id="schedule" className="items-center">
-        <div class="container mx-auto text-center mt-24 mb-12">
-          <h1>比賽日程</h1>
+      <div class="container mx-auto text-center mb-5">
+          <div class="flex items-center justify-center mt-16 mb-12 px-10"><img src="/assets/title_schedule.svg" width="480px"></img></div>
         </div>
         <div class="container mx-auto text-center">
           <VerticalTimeline>
