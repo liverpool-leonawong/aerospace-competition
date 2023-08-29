@@ -6,7 +6,7 @@ const Objective = () => {
     <>
       <div id="objective" className="items-center mt-16">
         <div class="container mx-auto text-center mb-5">
-          <div class="flex items-center justify-center px-10"><img src="/assets/title_objective.svg" width="480px"></img></div>
+          <div class="flex items-center justify-center px-10"><img src="/assets/title_objective.svg" width="480px" alt="比賽目的"></img></div>
         </div>
         <div class="mt-4 mb-8 sm:columns-2 sm:gap-8 sm:px-10 md:columns-4 md:gap-12 lg:columns-4 lg:gap-16 xl:px-40">
           <div class="items-center space-y-2">

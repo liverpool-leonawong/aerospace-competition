@@ -3,7 +3,7 @@ import React from 'react';
 import { ExpandMoreRounded, ExpandLessRounded } from '@mui/icons-material';
 import { useSpring } from "react-spring";
 
-export default ({ item, index, className }) => {
+const Collapse = ({ item, index, className }) => {
   const [isOpen, setIsOpen] = React.useState(index === 0 ? true : false);
   let toggleHandler = (e) => {
     //switch state
@@ -46,3 +46,4 @@ export default ({ item, index, className }) => {
     </div>
   );
 };
+export default Collapse;

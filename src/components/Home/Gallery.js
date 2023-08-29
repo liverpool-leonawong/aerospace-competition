@@ -17,7 +17,7 @@ const Gallery = () => {
     <>
       <div id="gallery" className="items-center">
         <div class="container mx-auto text-center mb-5">
-          <div class="flex items-center justify-center mt-16 mb-12 px-16"><img src="/assets/title_gallery.svg" width="420px"></img></div>
+          <div class="flex items-center justify-center mt-16 mb-12 px-16"><img src="/assets/title_gallery.svg" width="420px" alt="相集"></img></div>
         </div>
         <div class="container mx-auto text-center px-20">
           <Swiper

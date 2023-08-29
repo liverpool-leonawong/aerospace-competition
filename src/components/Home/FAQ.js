@@ -1,7 +1,7 @@
 import { React } from 'react';
 import Collapse from '../common/Collapse';
 
-export default ({ }) => {
+const FAQ = () => {
   return (
     <>
       <div id="faq" className="container mx-auto text-center mt-24 mb-8">
@@ -17,6 +17,7 @@ export default ({ }) => {
     </>
   );
 };
+export default FAQ;
 
 const data = [
   {

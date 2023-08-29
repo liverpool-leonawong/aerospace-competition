@@ -6,7 +6,7 @@ const Information = () => {
     <>
       <div id="information" className="items-center">
         <div className="container mx-auto text-center mb-5">
-          <div className="flex items-center justify-center mt-16 mb-12 px-10"><img src="/assets/title_info.svg" width="480px"></img></div>
+          <div className="flex items-center justify-center mt-16 mb-12 px-10"><img src="/assets/title_info.svg" width="480px" alt="比賽資料"></img></div>
         </div>
         <div className="container mx-auto text-center">
           {/* 參賽規則 */}
