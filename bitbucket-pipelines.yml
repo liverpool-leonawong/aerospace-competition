@@ -106,7 +106,7 @@ pipelines:
               - npm install
               - npm run build
             artifacts:
-              - dist/**
+              - build/**
       - step:
           name: Deploy to Production
           deployment: Production
@@ -121,7 +121,7 @@ pipelines:
                 AWS_SECRET_ACCESS_KEY: 0LyPkJJR7QjZZiKIpRX8f7ime8SzicAFjBSu77d5
                 AWS_DEFAULT_REGION: ap-southeast-1
                 S3_BUCKET: 'aerospace.digixedu.io'
-                LOCAL_PATH: 'dist'
+                LOCAL_PATH: 'build'
             # triggering a distribution invalidation to refresh the CDN caches
             - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
               variables:
