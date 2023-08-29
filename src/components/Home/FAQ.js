@@ -1,12 +1,12 @@
 import { React } from 'react';
 import Collapse from '../common/Collapse';
 
-export default ({ refFaq }) => {
+export default ({ }) => {
   return (
     <>
       <div id="faq" className="container mx-auto text-center mt-24 mb-8">
       <div class="container mx-auto text-center mb-5">
-          <div class="flex items-center justify-center mt-16 mb-12 px-10"><img src="/assets/title_faq.svg" width="480px"></img></div>
+          <div class="flex items-center justify-center mt-16 mb-12 px-10"><img src="/assets/title_faq.svg" width="480px" alt="常見問題"></img></div>
         </div>
       </div>
       {data.map((i, index) => (

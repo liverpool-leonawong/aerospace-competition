@@ -37,31 +37,28 @@ const Gallery = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="Test 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="Test 2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="Test 3" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="Test 4" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="Test 5" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="Test 6" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="Test 7" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="Test 8"/>
             </SwiperSlide>
           </Swiper>
         </div>

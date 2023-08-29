@@ -1,7 +1,7 @@
 import cx from 'classnames';
 import React from 'react';
 import { ExpandMoreRounded, ExpandLessRounded } from '@mui/icons-material';
-import { useSpring, animated } from "react-spring";
+import { useSpring } from "react-spring";
 
 export default ({ item, index, className }) => {
   const [isOpen, setIsOpen] = React.useState(index === 0 ? true : false);

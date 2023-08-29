@@ -5,7 +5,7 @@ import { PlayCircleOutlineRounded } from '@mui/icons-material';
 const FSBackground = () => {
   const [function1, setFunction1] = useState(false);
   const [function2, setFunction2] = useState(false);
-  const [function3, setFunction3] = useState(false);
+  // const [function3, setFunction3] = useState(false);
 
   return (
     <>
