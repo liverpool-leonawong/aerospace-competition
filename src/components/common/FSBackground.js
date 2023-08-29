@@ -36,12 +36,12 @@ const FSBackground = () => {
             '/assets/avoidance.mp4',
           ]}
         />
-        <FsLightbox
+        {/* <FsLightbox
           toggler={function3}
           sources={[
             'https://www.youtube.com/watch?v=3nQNiWdeH2Q',
           ]}
-        />
+        /> */}
       </div>
     </>
   );
