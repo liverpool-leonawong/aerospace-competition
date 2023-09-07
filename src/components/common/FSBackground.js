@@ -16,12 +16,12 @@ const FSBackground = () => {
           學習航天科技發展 <br />
           模擬火星探測車著陸探索
         </div>
-        <div className="container mx-auto sub-headline px-10">
+        <div className="container mx-auto sub-headline px-6">
           藉著三個系列的學習，比賽和體驗式課程，<br />讓學生們理解國家祝融號的結構和物聯網通訊原理，創作和編程探測車
           <div className="container mx-auto items-center mt-5"><Link to={ROUTES.ENROLL} target="_blank" rel="noreferrer"><button className="btn btn-primary">立即報名</button></Link></div>
         </div>
         <div className="robotic_front1 hidden lg:inline-block">
-          <div className="function-title" onClick={() => setFunction1(!function1)}>拍攝<PlayCircleOutlineRounded /></div>
+          <div className="function-title" onClick={() => setFunction1(!function1)}>拍攝 <PlayCircleOutlineRounded /></div>
         </div>
         <div className="robotic_side2 hidden lg:inline-block">
           <div className="function-title" onClick={() => setFunction3(!function3)}>語音 <PlayCircleOutlineRounded /></div>

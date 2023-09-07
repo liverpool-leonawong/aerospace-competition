@@ -213,7 +213,7 @@
     background-position: top left;
   }
   .headline {
-    @apply text-4xl;
+    font-size: 2.1rem;
     line-height: 1.3;
   }
   .sub-headline {
