@@ -24,7 +24,7 @@ const data = [
     title: '報名表格可否以中文/英文填寫？',
     description: (
       <div className="faq_answer mb-4">
-        所有資料按表格内的提示爲準,填寫相應語言的資料。 
+        所有資料按表格内的提示爲準，填寫相應語言的資料。 
       </div>
     ),
   },

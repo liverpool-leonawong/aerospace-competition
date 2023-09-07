@@ -31,7 +31,7 @@ const Header = () => {
             <Link className={colorChange ? 'logo change' : 'logo'} to="/" />
           </div>
           <div className={colorChange ? 'logo-name change' : 'logo-name'}><span className="mr-3">|</span> 航天機械人大賽</div>
-          <div id={colorChange ? 'menu change' : 'menu'} className="flex items-center lg:block sm:hidden">
+          <div id={colorChange ? 'menu change' : 'menu'} className="items-center hidden lg:flex">
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="objective" className="px-3" to={ROUTES.OBJECTIVE}>比賽目的</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="schedule" className="px-3" to={ROUTES.SCHEDULE}>比賽日程</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="information" className="px-3" to={ROUTES.INFO}>比賽資料</Link>
