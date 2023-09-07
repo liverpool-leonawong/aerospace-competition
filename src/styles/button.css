@@ -13,14 +13,14 @@
       @apply text-black;
     }
   }
-  &.btn-sign-in {
-    @apply lowercase text-white;
-    &.change {
-      @apply text-black;
-    }
-    &:hover {
-      color: rgb(255,153,0);
-    }
+}
+.btn-sign-in {
+  @apply lowercase text-white;
+  &.change {
+    @apply text-black;
+  }
+  &:hover {
+    color: rgb(255,153,0);
   }
 }
 }
