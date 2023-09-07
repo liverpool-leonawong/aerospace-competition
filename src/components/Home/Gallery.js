@@ -28,37 +28,49 @@ const Gallery = () => {
             coverflowEffect={{
               rotate: 50,
               stretch: 0,
-              depth: 100,
+              depth: 0,
               modifier: 1,
-              slideShadows: true,
+              slideShadows: false,
             }}
             pagination={true}
             modules={[EffectCards, Pagination]}
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="Test 1" />
+              <img src="/assets/gallery/trail_class_1.jpg" alt="Trial Class" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="Test 2" />
+              <img src="/assets/gallery/trail_class_2.jpg" alt="Trial Class" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="Test 3" />
+              <img src="/assets/gallery/trail_class_3.jpg" alt="Trial Class" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="Test 4" />
+              <img src="/assets/gallery/trail_class_4.jpg" alt="Trial Class" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="Test 5" />
+              <img src="/assets/gallery/venue_1.jpg" alt="Venue" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="Test 6" />
+              <img src="/assets/gallery/venue_2.jpg" alt="Venue" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="Test 7" />
+              <img src="/assets/gallery/venue_3.jpg" alt="Venue" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="Test 8"/>
+              <img src="/assets/gallery/venue_4.jpg" alt="Venue" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_5.jpg" alt="Venue" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_6.jpg" alt="Venue" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_7.jpg" alt="Venue" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_8.jpg" alt="Venue" />
             </SwiperSlide>
           </Swiper>
         </div>

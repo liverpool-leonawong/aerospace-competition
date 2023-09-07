@@ -38,7 +38,7 @@ const Header = () => {
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="gallery" className="px-3" to={ROUTES.GALLERY}>相集</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="faq" className="px-3" to={ROUTES.FAQ}>常見問題</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="partners" className="px-3" to={ROUTES.PARTNERS}>合作夥伴</Link>
-            <Link className="px-3" to={ROUTES.RESOURCES}>資源</Link>
+            <Link className="hidden" to={ROUTES.RESOURCES}>資源</Link>
           </div>
           <div id="sign-in" className="ml-auto flex items-center">
             <button className={colorChange ? 'btn btn-sign-in change' : 'btn btn-sign-in'}>

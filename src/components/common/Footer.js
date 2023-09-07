@@ -12,11 +12,11 @@ const Footer = () => {
               <Link className="logo" to="/" />
             </div>
             <div id="tagline" className="text-center text-white mt-4">讓每個孩子心中種下 一顆科技夢想的種子</div>
-            <div id="social" className="flex justify-center text-white gap-4 mt-4">
+            {/* <div id="social" className="flex justify-center text-white gap-4 mt-4">
               <FacebookRounded />
               <Instagram />
               <YouTube />
-            </div>
+            </div> */}
             <div id="copyright" className="text-center text-white text-xs mt-8">
               <p>© 2023 digiXnode Eduverse Ltd.</p>
               <p>Privacy Policy | Terms & Conditions</p>

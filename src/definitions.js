@@ -6,5 +6,6 @@ export const ROUTES = {
     SIGNIN: '',
     INFO: '#information',
     FAQ: '#faq',
-    GALLERY: '#gallery'
+    GALLERY: '#gallery',
+    ENROLL: 'https://docs.google.com/forms/d/e/1FAIpQLSd-Wy500ooW0D5Kt9C_IFl6yAO-ShQG5FBRiCjCnl6emouQYg/viewform',
   };

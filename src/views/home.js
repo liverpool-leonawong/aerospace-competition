@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <main className="content">
                 <div className="container mx-auto my-12">
-                    <ScrollSpy scrollThrottle={200} useBoxMethod={false}>
+                    <ScrollSpy scrollThrottle={10} useBoxMethod={false}>
                     <Objective />
                     <Schedule />
                     <Information />

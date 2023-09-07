@@ -37,7 +37,7 @@ const Information = () => {
               </div>
               <div className="table-grid">
                 <dt><div className="info-title">評分準則</div></dt>
-                <dd className="info-description">任務分（70%） 介紹短片（30%）</dd>
+                <dd className="info-description">任務分（70%） <br />介紹短片（30%）</dd>
               </div>
               <div className="table-grid">
                 <dt><div className="info-title">比賽場地</div></dt>
