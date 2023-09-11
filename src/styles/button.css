@@ -23,4 +23,18 @@
     color: rgb(255,153,0);
   }
 }
+.tab {
+  @apply px-4 py-2 text-xl;
+  color: #333333;
+  transition: 0.15s ease-in;
+&.tab-selected {
+  @apply font-semibold;
+  color: #ff9900;
+  border-bottom: 2px solid #ff9900;
+}
+&.tab-unselect {
+  @apply font-normal;
+
+}
+}
 }

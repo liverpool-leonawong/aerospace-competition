@@ -36,7 +36,7 @@ const Gallery = () => {
             modules={[EffectCards, Pagination]}
             className="mySwiper"
           >
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <img src="/assets/gallery/trail_class_1.jpg" alt="Trial Class" />
             </SwiperSlide>
             <SwiperSlide>
@@ -47,7 +47,7 @@ const Gallery = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img src="/assets/gallery/trail_class_4.jpg" alt="Trial Class" />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <img src="/assets/gallery/venue_1.jpg" alt="Venue" />
             </SwiperSlide>
