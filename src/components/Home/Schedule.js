@@ -19,7 +19,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<AppRegistrationRounded />}
             >
-              <h1 className="vertical-timeline-element-title">2023.9.15</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2023.9.15</h1>
               <h2 className="vertical-timeline-element-subtitle">開始報名</h2>
               <div>[截止日期：2024.2.29]</div>
             </VerticalTimelineElement>
@@ -30,7 +30,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<InterpreterModeRounded />}
             >
-              <h1 className="vertical-timeline-element-title">2023.11</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2023.11</h1>
               <h2 className="vertical-timeline-element-subtitle">比賽簡介會（香港）</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -40,7 +40,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<TerminalRounded />}
             >
-              <h1 className="vertical-timeline-element-title">2024.3</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2024.3</h1>
               <h2 className="vertical-timeline-element-subtitle">完成火星探測車編程訓練班</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -50,7 +50,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<SmartToyRounded />}
             >
-              <h1 className="vertical-timeline-element-title">2024.4</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2024.4</h1>
               <h2 className="vertical-timeline-element-subtitle">香港區航天機械人編程大賽</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -60,7 +60,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<WorkspacesRounded />}
             >
-              <h1 className="vertical-timeline-element-title">2024.6</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2024.6</h1>
               <h2 className="vertical-timeline-element-subtitle">大灣區比賽開幕禮</h2>
               <h2 className="vertical-timeline-element-subtitle">大灣區比賽工作坊</h2>
             </VerticalTimelineElement>
@@ -71,7 +71,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<TourRounded />}
             >
-              <h1 className="vertical-timeline-element-title">2024.7</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2024.7</h1>
               <h2 className="vertical-timeline-element-subtitle">大灣區航天機械人編程大賽</h2>
               <h2 className="vertical-timeline-element-subtitle">大灣區航天科技交流團</h2>
             </VerticalTimelineElement>

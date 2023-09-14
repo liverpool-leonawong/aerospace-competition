@@ -33,19 +33,37 @@ const FSBackground = () => {
         <FsLightbox
           toggler={function1}
           sources={[
-            '/assets/camera.mp4',
+            <iframe
+						src="https://www.youtube.com/embed/oRWJOEN-JFc?si=UDR8AaoYFYk8seRr"
+						width="1920px"
+						height="1080px"
+						allow="autoplay; fullscreen"
+						allowFullScreen
+					/>
           ]}
         />
         <FsLightbox
           toggler={function2}
           sources={[
-            '/assets/avoidance.mp4',
+            <iframe
+						src="https://www.youtube.com/embed/rP_kGcvUKGE?si=oed2Fb12GNbne3Yh"
+						width="1920px"
+						height="1080px"
+						allow="autoplay; fullscreen"
+						allowFullScreen
+					/>
           ]}
         />
         <FsLightbox
           toggler={function3}
           sources={[
-            '/assets/voice.mp4',
+            <iframe
+						src="https://www.youtube.com/embed/pWjjSey6ByU?si=EzwesRlmr8Vs3Dpc"
+						width="1920px"
+						height="1080px"
+						allow="autoplay; fullscreen"
+						allowFullScreen
+					/>
           ]}
         />
       </div>
