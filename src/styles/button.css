@@ -15,12 +15,27 @@
   }
 }
 .btn-sign-in {
-  @apply lowercase text-white;
+  @apply lowercase text-white rounded px-3 py-1;
+  border: 1px solid white;
+  &:hover {
+    background: rgba(255,255,255,0.8);
+      @apply text-black;
+  }
   &.change {
     @apply text-black;
+    border: 1px solid black;
   }
+  &.change:hover {
+    @apply bg-primary text-white;
+    border: 1px solid #ff9900;
+  }
+  }
+.btn-download{
+  @apply lowercase text-primary border-primary font-semibold;
+  border: 1px solid;
   &:hover {
-    color: rgb(255,153,0);
+    color: white;
+    background: #ff9900;
   }
 }
 .tab {

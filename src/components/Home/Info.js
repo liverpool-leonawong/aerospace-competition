@@ -91,7 +91,7 @@ const Information = () => {
                     </div>
                     <div className="table-grid">
                       <dt><div className="info-title">參賽名額</div></dt>
-                      <dd className="info-description">每間學校最多提名5隊</dd>
+                      <dd className="info-description">每間學校最少提名1隊</dd>
                     </div>
                     <div className="table-grid">
                       <dt><div className="info-title">比賽獎項</div></dt>
@@ -107,13 +107,14 @@ const Information = () => {
                     </div>
                     <div className="table-grid">
                       <dt><div className="info-title">比賽場地</div></dt>
-                      <dd className="info-description">數碼港</dd>
+                      <dd className="info-description">廣州南粵航空航天科技創新研究院</dd>
                     </div>
                   </dl>
                 </div>
               </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
+          <div className="flex text-center justify-center mt-8 mb-12"><a href="/assets/aerospace_competition_info.pdf" target="_blank"><button className="btn btn-download">下載詳細資料</button></a></div>
           {/* 場地 */}
           <div className="flex text-center justify-center mt-8 mb-6">
             <h3 className="info-headline mb-8">比賽場地參考</h3>

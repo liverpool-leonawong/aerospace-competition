@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ROUTES } from '../../definitions';
-import { AccountCircleOutlined } from '@mui/icons-material';
+import { TerminalRounded } from '@mui/icons-material';
 
 const Header = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -42,9 +42,9 @@ const Header = () => {
           </div>
           <div id="sign-in" className="ml-auto flex items-center">
             <button className={colorChange ? 'btn btn-sign-in change' : 'btn btn-sign-in'}>
-              <div className="flex">
-                <AccountCircleOutlined sx={{ fontSize: "28px" }} />
-                <div className="ml-1 md:flex sm:hidden">sign in</div>
+              <div className="flex items-center">
+                <TerminalRounded sx={{ fontSize: "28px" }} />
+                <div className="ml-1 md:flex sm:hidden">開發者平台</div>
               </div>
             </button>
           </div>

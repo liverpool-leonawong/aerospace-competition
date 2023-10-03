@@ -72,6 +72,15 @@ const Gallery = () => {
             <SwiperSlide>
               <img src="/assets/gallery/venue_8.jpg" alt="Venue" />
             </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_9.jpg" alt="Venue" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_11.jpg" alt="Venue" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/assets/gallery/venue_10.jpg" alt="Venue" />
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
