@@ -44,7 +44,7 @@ const Header = () => {
             <button className={colorChange ? 'btn btn-sign-in change' : 'btn btn-sign-in'}>
               <div className="flex items-center">
                 <TerminalRounded sx={{ fontSize: "28px" }} />
-                <div className="ml-1 md:flex sm:hidden">開發者平台</div>
+                <div className="ml-1 md:flex">開發平台</div>
               </div>
             </button>
           </div>
