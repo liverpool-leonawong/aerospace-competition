@@ -114,7 +114,7 @@ const Information = () => {
                       <dd className="info-description">{t("venue-gba")}</dd>
                     </div>
                   </dl>
-                  <div className="flex text-center justify-center mt-8 mb-12"><a href="#" target="_blank"><button className="btn btn-download">{t("download-gba")}</button></a></div>
+                  <div className="flex text-center justify-center mt-8 mb-12"><button className="btn btn-download">{t("download-gba")}</button></div>
                 </div>
               </Tab.Panel>
             </Tab.Panels>
