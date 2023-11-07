@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Close, FacebookRounded, Instagram, YouTube } from '@mui/icons-material';
-
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
   const [showModal, setShowModal] = useState(false);
   return (
     <>
@@ -12,7 +13,7 @@ const Footer = () => {
           <div id="logo" className="flex justify-center mt-10">
             <Link className="logo" to="/" />
           </div>
-          <div id="tagline" className="text-center text-white mt-4">讓每個孩子心中種下 一顆科技夢想的種子</div>
+          <div id="tagline" className="text-center text-white mt-4">{t("footer-quote")}</div>
           {/* <div id="social" className="flex justify-center text-white gap-4 mt-4">
               <FacebookRounded />
               <Instagram />
@@ -45,8 +46,7 @@ const Footer = () => {
                     {/*body*/}
                     <div className="relative px-5 flex-auto">
                       <p className="mb-4 text-slate-500 text-lg leading-relaxed">
-                        如有任何爭議，主辦方將保留最終決定權，包括隨時暫停、更改或終止活動或比賽，與及其條款及細則，而毋須另行通知。
-                        以上所有課程、比賽及研學活動內容僅供參考，所有內容以最終報價單為準，歡迎聯絡相關客戶經理查詢詳情。
+                        {t("t&c")}
                       </p>
                     </div>
                   </div>

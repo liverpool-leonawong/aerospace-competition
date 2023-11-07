@@ -1,8 +1,9 @@
 import React from 'react';
 import { Tab } from '@headlessui/react'
+import { useTranslation } from "react-i18next";
 
 const Information = () => {
-
+  const { t, i18n } = useTranslation();
   return (
     <>
       <div id="information" className="items-center">
@@ -12,7 +13,7 @@ const Information = () => {
         <div className="container mx-auto text-center">
           {/* 參賽規則 */}
           <div className="flex text-center justify-center mt-8 mb-6">
-            <h3 className="info-headline">參賽規則</h3>
+            <h3 className="info-headline">{t("entry-rules")}</h3>
           </div>
           <Tab.Group>
             <Tab.List>
@@ -24,7 +25,7 @@ const Information = () => {
                     selected ? 'tab tab-selected' : 'tab tab-unselect'
                   }
                 >
-                  香港區
+                  {t("region-hk")}
                 </button>
               )}
               </Tab>
@@ -36,7 +37,7 @@ const Information = () => {
                     selected ? 'tab tab-selected' : 'tab tab-unselect'
                   }
                 >
-                  大灣區
+                  {t("region-gba")}
                 </button>
               )}
               </Tab> 
@@ -47,33 +48,35 @@ const Information = () => {
                 <div className="container mx-auto no-border text-left sm:px-6 lg:px-20 xl:px-40">
                   <dl>
                     <div className="table-grid">
-                      <dt><div className="info-title">參賽組別</div></dt>
-                      <dd className="info-description">小四至小六</dd>
+                      <dt><div className="info-title">{t("match-group")}</div></dt>
+                      <dd className="info-description">{t("target-aud")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">參賽人數</div></dt>
-                      <dd className="info-description">每隊最多3人</dd>
+                      <dt><div className="info-title">{t("participators")}</div></dt>
+                      <dd className="info-description">{t("team-members-hk")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">參賽名額</div></dt>
-                      <dd className="info-description">每間學校最多提名5隊</dd>
+                      <dt><div className="info-title">{t("quota")}</div></dt>
+                      <dd className="info-description">{t("nomination-hk")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">比賽獎項</div></dt>
-                      <dd className="info-description">冠，亞，季，優異獎<br />
-                        最佳外形設計<br />
-                        最佳編程設計<br />
-                        最佳團隊合作精神
+                      <dt><div className="info-title">{t("prizes")}</div></dt>
+                      <dd className="info-description">
+                        {t("prize1")}<br />
+                        {t("prize2")}<br />
+                        {t("prize3")}<br />
+                        {t("prize4")}
                       </dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">評分準則</div></dt>
-                      <dd className="info-description">任務分（70%） <br />介紹短片（30%）</dd>
+                      <dt><div className="info-title">{t("criteria")}</div></dt>
+                      <dd className="info-description">{t("criteria1")}<br />{t("criteria2")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">比賽場地</div></dt>
-                      <dd className="info-description">數碼港</dd>
+                      <dt><div className="info-title">{t("venue")}</div></dt>
+                      <dd className="info-description">{t("venue-hk")}</dd>
                     </div>
+                    <div className="flex text-center justify-center mt-8 mb-12"><a href="/assets/aerospace_competition_info.pdf" target="_blank"><button className="btn btn-download">{t("download-hk")}</button></a></div>
                   </dl>
                 </div>
               </Tab.Panel>
@@ -82,50 +85,51 @@ const Information = () => {
                 <div className="container mx-auto no-border text-left sm:px-6 lg:px-20 xl:px-40">
                   <dl>
                     <div className="table-grid">
-                      <dt><div className="info-title">參賽組別</div></dt>
-                      <dd className="info-description">小四至小六</dd>
+                      <dt><div className="info-title">{t("match-group")}</div></dt>
+                      <dd className="info-description">{t("target-aud")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">參賽人數</div></dt>
-                      <dd className="info-description">每隊最多3人</dd>
+                      <dt><div className="info-title">{t("participators")}</div></dt>
+                      <dd className="info-description">{t("team-members-gba")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">參賽名額</div></dt>
-                      <dd className="info-description">每間學校最少提名1隊</dd>
+                      <dt><div className="info-title">{t("quota")}</div></dt>
+                      <dd className="info-description">{t("nomination-gba")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">比賽獎項</div></dt>
-                      <dd className="info-description">冠，亞，季，優異獎<br />
-                        最佳外形設計<br />
-                        最佳編程設計<br />
-                        最佳團隊合作精神
+                      <dt><div className="info-title">{t("prizes")}</div></dt>
+                      <dd className="info-description">
+                        {t("prize1")}<br />
+                        {t("prize2")}<br />
+                        {t("prize3")}<br />
+                        {t("prize4")}
                       </dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">評分準則</div></dt>
-                      <dd className="info-description">任務分（70%） <br />介紹短片（30%）</dd>
+                      <dt><div className="info-title">{t("criteria")}</div></dt>
+                      <dd className="info-description">{t("criteria1")}<br />{t("criteria2")}</dd>
                     </div>
                     <div className="table-grid">
-                      <dt><div className="info-title">比賽場地</div></dt>
-                      <dd className="info-description">廣州南粵航空航天科技創新研究院</dd>
+                    <dt><div className="info-title">{t("venue")}</div></dt>
+                      <dd className="info-description">{t("venue-gba")}</dd>
                     </div>
                   </dl>
+                  <div className="flex text-center justify-center mt-8 mb-12"><a href="/assets/aerospace_competition_info.pdf" target="_blank"><button className="btn btn-download">{t("download-gba")}</button></a></div>
                 </div>
               </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
-          <div className="flex text-center justify-center mt-8 mb-12"><a href="/assets/aerospace_competition_info.pdf" target="_blank"><button className="btn btn-download">下載詳細資料</button></a></div>
           {/* 場地 */}
           <div className="flex text-center justify-center mt-8 mb-6">
-            <h3 className="info-headline mb-8">比賽場地參考</h3>
+            <h3 className="info-headline mb-8">{t("venue-ref")}</h3>
           </div>
           <div className="container mx-auto px-10 grid grid-cols-1 gap-12 text-left md:grid-cols-2 xl:px-40">
             <div className="sm:order-last">
               <ul>
-                <li>1. 大小是5m x 5m</li>
-                <li>2. 包括基地，任務區域，山體，障礙物</li>
-                <li>3. 虛綫僅代表參考路綫，不涉及計分項目</li>
-                <li className="mt-3 font-semibold">注：正式比賽場地稍後公佈</li>
+                <li>{t("venue-ref1")}</li>
+                <li>{t("venue-ref2")}</li>
+                <li>{t("venue-ref3")}</li>
+                <li className="mt-3 font-semibold"><li>{t("venue-remarks")}</li></li>
               </ul>
             </div>
             <div className="sm:order-first flex items-center"><img src="/assets/dxne_robotic_venue.png" width="400px" alt="比賽場地參考"></img></div>

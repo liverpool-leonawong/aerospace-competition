@@ -14,9 +14,19 @@
     }
   }
 }
+.btn-language {
+  @apply text-white cursor-pointer;
+  &.change {
+    @apply text-black;
+  }
+  &.change:hover {
+    @apply text-primary;
+  }
+}
 .btn-sign-in {
-  @apply lowercase text-white rounded px-3 py-1;
+  @apply text-white rounded px-2 py-1;
   border: 1px solid white;
+  font-size: 14px;
   &:hover {
     background: rgba(255,255,255,0.8);
     @apply text-black;

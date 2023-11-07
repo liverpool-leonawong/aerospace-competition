@@ -2,6 +2,18 @@
 @import url(/src/styles/timeline.css);
 @import url(/src/styles/accordion.css);
 
+/* Max Width */
+.max-w-70 {
+  max-width: 70px;
+}
+.max-w-100 {
+  max-width: 100px;
+}
+.max-aero {
+  max-width: 120px;
+  width: 120px;
+}
+
 .logo-name {
   @apply text-white text-lg font-semibold mr-5 sm:ml-3 md:ml-0;
   &.change {
@@ -110,7 +122,7 @@
   background-repeat: no-repeat;
   background-size: auto 30px;
   background-position: center;
-  width: 180px;
+  width: 160px;
   height: 30px;
   &.change {
     background-image: url(/public/assets/logo_dxne_h_rgb.svg);
