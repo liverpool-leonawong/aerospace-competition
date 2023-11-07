@@ -50,7 +50,7 @@ export default function Language() {
                   active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                   'block px-4 py-2 text-sm'
                 )}>
-                  繁體中文
+                  {t("language-tw")}
                 </button>
               )}
             </Menu.Item>
@@ -60,7 +60,7 @@ export default function Language() {
                   active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                   'block px-4 py-2 text-sm'
                 )}>
-                  簡體中文
+                  {t("language-cn")}
                 </button>
               )}
             </Menu.Item>
