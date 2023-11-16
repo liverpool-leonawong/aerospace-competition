@@ -20,7 +20,7 @@ const Footer = () => {
               <YouTube />
             </div> */}
           <div id="copyright" className="text-center text-white text-xs mt-8">
-            <p>© 2023 digiXnode Eduverse Ltd.</p>
+            <p>© 2023 PERAC Eduverse Ltd.</p>
             <p>Privacy Policy | <button onClick={() => setShowModal(true)}>Terms & Conditions</button></p>
           </div>
           {showModal ? (

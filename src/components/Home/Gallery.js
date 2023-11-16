@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 // import './styles.css';
 
 // import required modules
-import { EffectCards, Pagination } from 'swiper/modules';
+import { EffectCards, Pagination, Autoplay, Navigation } from 'swiper/modules';
 
 const Gallery = () => {
 
@@ -22,6 +22,10 @@ const Gallery = () => {
         <div class="container mx-auto text-center px-20">
           <Swiper
             effect={'cards'}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={'auto'}
@@ -33,7 +37,7 @@ const Gallery = () => {
               slideShadows: false,
             }}
             pagination={true}
-            modules={[EffectCards, Pagination]}
+            modules={[EffectCards, Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
             {/* <SwiperSlide>

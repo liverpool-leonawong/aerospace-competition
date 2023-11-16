@@ -31,7 +31,7 @@ const Schedule = () => {
               iconStyle={{ background: 'rgb(255,153,0)', color: '#fff' }}
               icon={<InterpreterModeRounded />}
             >
-              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2023.11</h1>
+              <h1 className="vertical-timeline-element-title pt-3 lg:pt-0">2023.12</h1>
               <h2 className="vertical-timeline-element-subtitle">{t("agenda2")}</h2>
             </VerticalTimelineElement>
             <VerticalTimelineElement
