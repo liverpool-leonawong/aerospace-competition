@@ -38,7 +38,7 @@ h1 {
 }
 
 h3 {
-  @apply text-2xl;
+  font-size: 1.2rem;
 }
 
 h4 {
