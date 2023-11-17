@@ -52,7 +52,7 @@ const Header = () => {
           </div>
           <div id="btn-group" className="ml-auto flex items-center">
             <LanguageSwitcher />
-            <button className={colorChange ? 'btn btn-sign-in change sm:hidden md:block' : 'btn btn-sign-in sm:hidden md:block'}>
+            <button className={colorChange ? 'btn btn-sign-in change hidden md:block' : 'btn btn-sign-in hidden md:block'}>
               <div className="flex items-center">
                 <TerminalRounded sx={{ fontSize: "24px" }} />
                 <div className="ml-1 md:flex">{t("platform")}</div>

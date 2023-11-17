@@ -22,7 +22,7 @@
 }
 
 .navbar {
-  @apply sticky top-0 z-50;
+  @apply sticky top-0 z-40;
   background: transparent;
   &.change {
     background: white;
