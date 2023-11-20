@@ -17,9 +17,9 @@ const Partners = () => {
           {t("organizers")}
         </div>
       </div>
-      <div className="grid items-center mt-8 px-30 grid-cols-2 gap-x-8 gap-y-10 px-8 md:gap-y-12 md:grid-cols-4 lg:gap-y-12 xl:px-40">
+      <div className="grid items-center mt-8 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:gap-y-12 md:grid-cols-3 lg:gap-y-12 xl:px-40">
         <img src="/assets/logo_dxne_h_rgb.svg" alt="digixedu" className="h-auto align-middle border-none justify-self-center" width="220" />
-        <button onClick={() => setShowCNSA(true)} className="logo-link"><img src="/assets/logo_cnsa.jpeg" alt="CNSA" className="h-auto align-middle border-none justify-self-center" width="110" /></button>
+        {/* <button onClick={() => setShowCNSA(true)} className="logo-link"><img src="/assets/logo_cnsa.jpeg" alt="CNSA" className="h-auto align-middle border-none justify-self-center" width="110" /></button> */}
         <button onClick={() => setShowGLAC(true)} className="logo-link"><img src="/assets/logo_glac.jpg" alt="GLAC" className="h-auto align-middle border-none justify-self-center" width="180" /></button>
         <button onClick={() => setShowNam(true)} className="logo-link"><img src="/assets/logo_nam-yue-research.png" alt="南粵研究院" className="h-auto align-middle border-none justify-self-center max-w-100" /></button>
       </div>

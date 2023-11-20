@@ -27,7 +27,7 @@ const Home = () => {
                     <Objective />
                     <Schedule />
                     <Information />
-                    <Gallery />
+                    <Gallery title={[<img src="/assets/title_gallery.svg" width="420px" alt="相集"></img>]} />
                     <FAQ />
                     <Partners />
                     </ScrollSpy>

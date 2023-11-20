@@ -41,7 +41,7 @@ const Header = () => {
             <div className={colorChange ? 'logo-name change' : 'logo-name'}><span className="mr-2">|</span> {t("competition")}</div>
           </div>
           <div id={colorChange ? 'menu change' : 'menu'} className="items-center hidden lg:flex">
-            <Link onClick={() => setShowModal(true)} className="px-3">{t("menu-about")}</Link>
+            <Link to={ROUTES.ABOUT} target="_blank" className="px-3">{t("menu-about")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="objective" className="px-3" to={ROUTES.OBJECTIVE}>{t("menu-objective")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="schedule" className="px-3" to={ROUTES.SCHEDULE}>{t("menu-schedule")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="information" className="px-3" to={ROUTES.INFO}>{t("menu-info")}</Link>

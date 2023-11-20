@@ -11,13 +11,13 @@ import 'swiper/css/pagination';
 // import required modules
 import { EffectCards, Pagination, Autoplay, Navigation } from 'swiper/modules';
 
-const Gallery = () => {
-
+function Gallery (props) {
+  const title = props.title;
   return (
     <>
       <div id="gallery" className="items-center">
         <div class="container mx-auto text-center mb-5">
-          <div class="flex items-center justify-center mt-16 mb-12 px-16"><img src="/assets/title_gallery.svg" width="420px" alt="相集"></img></div>
+          <div class="flex items-center justify-center mt-16 mb-12 px-16">{title}</div>
         </div>
         <div class="container mx-auto text-center px-20">
           <Swiper
@@ -29,13 +29,13 @@ const Gallery = () => {
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={'auto'}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 0,
-              modifier: 1,
-              slideShadows: false,
-            }}
+            // coverflowEffect={{
+            //   rotate: 50,
+            //   stretch: 0,
+            //   depth: 0,
+            //   modifier: 1,
+            //   slideShadows: false,
+            // }}
             pagination={true}
             modules={[EffectCards, Autoplay, Pagination, Navigation]}
             className="mySwiper"

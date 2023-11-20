@@ -47,9 +47,9 @@ const Information = () => {
                 {/*香港區*/}
                 <div className="container mx-auto no-border text-left sm:px-6 lg:px-20 xl:px-40">
                   <dl>
-                    <div className="table-grid">
-                      <dt><div className="info-title">{t("match-group")}</div></dt>
-                      <dd className="info-description">{t("target-aud")}</dd>
+                    <div className="table-grid items-start">
+                      <dt><div className="info-title self-start">{t("match-group")}</div></dt>
+                      <dd className="info-description">{t("target-aud-primary")}<br />{t("target-aud-secondary")}</dd>
                     </div>
                     <div className="table-grid">
                       <dt><div className="info-title">{t("participators")}</div></dt>
@@ -59,8 +59,8 @@ const Information = () => {
                       <dt><div className="info-title">{t("quota")}</div></dt>
                       <dd className="info-description">{t("nomination-hk")}</dd>
                     </div>
-                    <div className="table-grid">
-                      <dt><div className="info-title">{t("prizes")}</div></dt>
+                    <div className="table-grid items-start">
+                      <dt><div className="info-title self-start">{t("prizes")}</div></dt>
                       <dd className="info-description">
                         {t("prize1")}<br />
                         {t("prize2")}<br />
@@ -68,25 +68,28 @@ const Information = () => {
                         {t("prize4")}
                       </dd>
                     </div>
-                    <div className="table-grid">
-                      <dt><div className="info-title">{t("criteria")}</div></dt>
+                    <div className="table-grid items-start">
+                      <dt><div className="info-title self-start">{t("criteria")}</div></dt>
                       <dd className="info-description">{t("criteria1")}<br />{t("criteria2")}</dd>
                     </div>
                     <div className="table-grid">
                       <dt><div className="info-title">{t("venue")}</div></dt>
                       <dd className="info-description">{t("venue-hk")}</dd>
                     </div>
-                    <div className="flex text-center justify-center mt-8 mb-12"><a href="/assets/aerospace_competition_info.pdf" target="_blank"><button className="btn btn-download">{t("download-hk")}</button></a></div>
-                  </dl>
+                    <div className="flex justify-center">
+                    <div className="flex text-center justify-center mt-8 mb-12 mr-3"><a href="/assets/aerospace-competition_hk-primary.pdf" target="_blank"><button className="btn btn-download">{t("download_hk-primary")}</button></a></div>
+                    <div className="flex text-center justify-center mt-8 mb-12"><a href="/assets/aerospace-competition_hk-secondary.pdf" target="_blank"><button className="btn btn-download">{t("download_hk-secondary")}</button></a></div>
+                    </div>
+                    </dl>
                 </div>
               </Tab.Panel>
               <Tab.Panel>
                 {/*大灣區*/}
                 <div className="container mx-auto no-border text-left sm:px-6 lg:px-20 xl:px-40">
                   <dl>
-                    <div className="table-grid">
-                      <dt><div className="info-title">{t("match-group")}</div></dt>
-                      <dd className="info-description">{t("target-aud")}</dd>
+                  <div className="table-grid items-start">
+                      <dt><div className="info-title self-start">{t("match-group")}</div></dt>
+                      <dd className="info-description">{t("target-aud-primary")}<br />{t("target-aud-secondary")}</dd>
                     </div>
                     <div className="table-grid">
                       <dt><div className="info-title">{t("participators")}</div></dt>
@@ -96,8 +99,8 @@ const Information = () => {
                       <dt><div className="info-title">{t("quota")}</div></dt>
                       <dd className="info-description">{t("nomination-gba")}</dd>
                     </div>
-                    <div className="table-grid">
-                      <dt><div className="info-title">{t("prizes")}</div></dt>
+                    <div className="table-grid items-start">
+                      <dt><div className="info-title self-start">{t("prizes")}</div></dt>
                       <dd className="info-description">
                         {t("prize1")}<br />
                         {t("prize2")}<br />
@@ -105,8 +108,8 @@ const Information = () => {
                         {t("prize4")}
                       </dd>
                     </div>
-                    <div className="table-grid">
-                      <dt><div className="info-title">{t("criteria")}</div></dt>
+                    <div className="table-grid items-start">
+                      <dt><div className="info-title self-start">{t("criteria")}</div></dt>
                       <dd className="info-description">{t("criteria1")}<br />{t("criteria2")}</dd>
                     </div>
                     <div className="table-grid">
