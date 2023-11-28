@@ -28,21 +28,24 @@ const Partners = () => {
           <div class="text-center">{t("collaborators")}</div>
         </div>
       </div>
-      <div className="grid items-center mt-12 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
+      <div className="grid place-items-center mt-12 px-30 grid-cols-2 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
         <img src="/assets/logo_hkte.svg" alt="HKTE" className="h-auto align-middle border-none justify-self-center" width="160" />
         <img src="/assets/logo_ired.svg" alt="iRed" className="h-auto align-middle border-none justify-self-center" width="240" />
         <img src="/assets/logo_cyberport.png" alt="Cyberport" className="h-auto align-middle border-none justify-self-center" width="180" />
-      </div>
-      <div class="container mx-auto text-left font-semibold px-10">
-        <div className="grid items-center mt-10 px-30">
-          <div class="text-center">{t("supporters")}</div>
-        </div>
-      </div>
-      <div className="grid items-center mt-12 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
         <img src="/assets/logo_hkfew.png" alt="HKFEW" className="h-auto align-middle border-none justify-self-center" width="160" />
         <img src="/assets/logo_hkace.jpg" alt="HKACE" className="h-auto align-middle border-none justify-self-center" width="240" />
         <img src="/assets/logo_aitle.png" alt="AiTLE" className="h-auto align-middle border-none justify-self-center" width="180" />
       </div>
+      {/* <div class="container mx-auto text-left font-semibold px-10">
+        <div className="grid items-center mt-10 px-30">
+          <div class="text-center">{t("supporters")}</div>
+        </div>
+      </div> */}
+      {/* <div className="grid items-center mt-12 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
+        <img src="/assets/logo_hkfew.png" alt="HKFEW" className="h-auto align-middle border-none justify-self-center" width="160" />
+        <img src="/assets/logo_hkace.jpg" alt="HKACE" className="h-auto align-middle border-none justify-self-center" width="240" />
+        <img src="/assets/logo_aitle.png" alt="AiTLE" className="h-auto align-middle border-none justify-self-center" width="180" />
+      </div> */}
       {showCNSA ? (
         <>
           <div
@@ -52,7 +55,7 @@ const Partners = () => {
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start justify-between px-5 py-4  rounded-t">
+                <div className="flex items-start justify-between px-5 py-4 rounded-t">
                   <h4 className="text-primary font-semibold">
                     {t("CNSA")}
                   </h4>

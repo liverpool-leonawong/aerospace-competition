@@ -31,7 +31,7 @@ const Objective = () => {
         <h3 class="info-headline text-center mt-16">{t("aero-activities")}</h3>
         <div class="mt-4 mb-8 columns-1 gap-6 px-20 md:columns-5 md:gap-8 md:px-0 lg:columns-5 lg:gap-12 xl:px-40">
           <div class="items-center space-y-2">
-            <img src="/assets/icon_programming.svg" alt="航天火車探測車編程訓練班" className="rounded-full max-w-full h-auto align-middle border-none" />
+            <img src="/assets/icon_programming.svg" alt="航天火星探測車編程訓練班" className="rounded-full max-w-full h-auto align-middle border-none" />
             <p className="object-title2">{t("act1")}</p>
           </div>          
           <div class="items-center space-y-2">
