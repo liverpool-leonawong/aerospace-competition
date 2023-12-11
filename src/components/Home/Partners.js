@@ -29,9 +29,11 @@ const Partners = () => {
         </div>
       </div>
       <div className="flex justify-center items-center gap-x-16 my-10">
-        <img src="/assets/logo_hkfew.png" alt="HKFEW" className="h-auto align-middle border-none justify-self-center" width="160" />
         <img src="/assets/logo_aitle.png" alt="AiTLE" className="h-auto align-middle border-none justify-self-center" width="180" />
+        <img src="/assets/logo_hkfew.png" alt="HKFEW" className="h-auto align-middle border-none justify-self-center" width="160" />
       </div>
+      {/* Supporters & Resellers */}
+
       <div className="container mx-auto text-left font-semibold px-10">
         <div className="grid items-center mt-10 px-30">
           <div class="text-center">{t("supporters")}</div>
@@ -51,6 +53,7 @@ const Partners = () => {
         <div><img src="/assets/logo_hkte.svg" alt="HKTE" className="h-auto align-middle border-none justify-self-center" width="160" /></div>
         <div><img src="/assets/logo_nice-edu.jpg" alt="Nice Education" className="h-auto align-middle border-none justify-self-center" width="240" /></div>
       </div>
+      
       {showCNSA ? (
         <>
           <div
