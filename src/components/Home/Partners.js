@@ -49,7 +49,7 @@ const Partners = () => {
       <div className="grid place-items-center mt-12 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
         <div><img src="/assets/logo_ired.svg" alt="iRed" className="h-auto align-middle border-none justify-self-center" width="240" /></div>
         <div><img src="/assets/logo_hkte.svg" alt="HKTE" className="h-auto align-middle border-none justify-self-center" width="160" /></div>
-        <div><img src="/assets/logo_nice-edu.png" alt="Nice Education" className="h-auto align-middle border-none justify-self-center" width="240" /></div>
+        <div><img src="/assets/logo_nice-edu.jpg" alt="Nice Education" className="h-auto align-middle border-none justify-self-center" width="240" /></div>
       </div>
       {showCNSA ? (
         <>
