@@ -7,6 +7,7 @@ const Partners = () => {
   const [showCNSA, setShowCNSA] = useState(false);
   const [showGLAC, setShowGLAC] = useState(false);
   const [showNam, setShowNam] = useState(false);
+  const dxneClick = () => { window.open('https://digixedu.com', '_blank')}
   return (
     <div id="partners" className="main">
       <div class="container mx-auto text-center mb-5">
@@ -18,8 +19,7 @@ const Partners = () => {
         </div>
       </div>
       <div className="grid items-center mt-8 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:gap-y-12 md:grid-cols-3 lg:gap-y-12 xl:px-40">
-        <img src="/assets/logo_dxne_h_rgb.svg" alt="digixedu" className="h-auto align-middle border-none justify-self-center" width="220" />
-        {/* <button onClick={() => setShowCNSA(true)} className="logo-link"><img src="/assets/logo_cnsa.jpeg" alt="CNSA" className="h-auto align-middle border-none justify-self-center" width="110" /></button> */}
+        <button onClick={dxneClick} className="logo-link"><img src="/assets/logo_dxne_h_rgb.svg" alt="digixedu" className="h-auto align-middle border-none justify-self-center" width="220" /></button>
         <button onClick={() => setShowGLAC(true)} className="logo-link"><img src="/assets/logo_glac.jpg" alt="GLAC" className="h-auto align-middle border-none justify-self-center" width="180" /></button>
         <button onClick={() => setShowNam(true)} className="logo-link"><img src="/assets/logo_nam-yue-research.png" alt="南粵研究院" className="h-auto align-middle border-none justify-self-center max-w-100" /></button>
       </div>
@@ -28,24 +28,29 @@ const Partners = () => {
           <div class="text-center">{t("collaborators")}</div>
         </div>
       </div>
-      <div className="grid place-items-center mt-12 px-30 grid-cols-2 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
-        <img src="/assets/logo_hkte.svg" alt="HKTE" className="h-auto align-middle border-none justify-self-center" width="160" />
-        <img src="/assets/logo_ired.svg" alt="iRed" className="h-auto align-middle border-none justify-self-center" width="240" />
-        <img src="/assets/logo_cyberport.png" alt="Cyberport" className="h-auto align-middle border-none justify-self-center" width="180" />
+      <div className="flex justify-center items-center gap-x-16 my-10">
         <img src="/assets/logo_hkfew.png" alt="HKFEW" className="h-auto align-middle border-none justify-self-center" width="160" />
-        <img src="/assets/logo_hkace.jpg" alt="HKACE" className="h-auto align-middle border-none justify-self-center" width="240" />
         <img src="/assets/logo_aitle.png" alt="AiTLE" className="h-auto align-middle border-none justify-self-center" width="180" />
       </div>
-      {/* <div class="container mx-auto text-left font-semibold px-10">
+      <div className="container mx-auto text-left font-semibold px-10">
         <div className="grid items-center mt-10 px-30">
           <div class="text-center">{t("supporters")}</div>
         </div>
-      </div> */}
-      {/* <div className="grid items-center mt-12 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
-        <img src="/assets/logo_hkfew.png" alt="HKFEW" className="h-auto align-middle border-none justify-self-center" width="160" />
-        <img src="/assets/logo_hkace.jpg" alt="HKACE" className="h-auto align-middle border-none justify-self-center" width="240" />
-        <img src="/assets/logo_aitle.png" alt="AiTLE" className="h-auto align-middle border-none justify-self-center" width="180" />
-      </div> */}
+      </div>
+      <div className="flex justify-center items-center gap-x-16 my-10">
+        <div><img src="/assets/logo_cyberport.png" alt="Cyberport" className="h-auto align-middle border-none justify-self-center" width="180" /></div>
+        <div><img src="/assets/logo_hkace.jpg" alt="HKACE" className="h-auto align-middle border-none justify-self-center" width="220" /></div>
+      </div>
+      <div className="container mx-auto text-left font-semibold px-10">
+        <div className="grid items-center mt-10 px-30">
+          <div class="text-center">{t("resellers")}</div>
+        </div>
+      </div>
+      <div className="grid place-items-center mt-12 px-30 grid-cols-3 gap-x-8 gap-y-10 px-8 md:grid-cols-3 md:gap-y-12 lg:grid-cols-3 lg:gap-y-12 xl:px-40">
+        <div><img src="/assets/logo_ired.svg" alt="iRed" className="h-auto align-middle border-none justify-self-center" width="240" /></div>
+        <div><img src="/assets/logo_hkte.svg" alt="HKTE" className="h-auto align-middle border-none justify-self-center" width="160" /></div>
+        <div><img src="/assets/logo_nice-edu.png" alt="Nice Education" className="h-auto align-middle border-none justify-self-center" width="240" /></div>
+      </div>
       {showCNSA ? (
         <>
           <div

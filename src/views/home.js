@@ -11,6 +11,7 @@ import ScrollSpy from "react-ui-scrollspy";
 import { React, useState } from 'react';
 import { useTranslation } from "react-i18next";
 import { Close } from '@mui/icons-material';
+import Video from '../components/Home/Video';
 
 const Home = () => {
     const { t, i18n } = useTranslation();
@@ -25,6 +26,7 @@ const Home = () => {
                 <div className="container mx-auto my-12">
                     <ScrollSpy scrollThrottle={10} useBoxMethod={false}>
                     <Objective />
+                    <Video />
                     <Schedule />
                     <Information />
                     <Gallery title={[<img src="/assets/title_gallery.svg" width="420px" alt="相集"></img>]} />

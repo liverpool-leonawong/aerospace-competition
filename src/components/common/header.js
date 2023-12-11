@@ -43,6 +43,7 @@ const Header = () => {
           <div id={colorChange ? 'menu change' : 'menu'} className="items-center hidden lg:flex">
             <Link to={ROUTES.ABOUT} target="_blank" className="px-3">{t("menu-about")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="objective" className="px-3" to={ROUTES.OBJECTIVE}>{t("menu-objective")}</Link>
+            <Link onClick={handleAnchorClick} data-to-scrollspy-id="introduction" className="px-3" to={ROUTES.INTRO}>{t("menu-intro")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="schedule" className="px-3" to={ROUTES.SCHEDULE}>{t("menu-schedule")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="information" className="px-3" to={ROUTES.INFO}>{t("menu-info")}</Link>
             <Link onClick={handleAnchorClick} data-to-scrollspy-id="gallery" className="px-3" to={ROUTES.GALLERY}>{t("menu-gallery")}</Link>

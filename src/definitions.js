@@ -2,6 +2,7 @@ export const ROUTES = {
     HOME: 'https://aerospace.digixedu.io',
     ABOUT: '/about',
     OBJECTIVE: '#objective',
+    INTRO: '#introduction',
     SCHEDULE: '#schedule',
     RESOURCES: '/resources',
     PARTNERS: '#partners',

@@ -37,6 +37,11 @@
   }
 }
 
+.video {
+  @apply justify-center flex;
+  margin: 50px 0 80px 0;
+}
+
 .bg-video {
   z-index: -1;
   overflow: hidden;
@@ -121,8 +126,8 @@
   background-image: url(/public/assets/logo_dxne_h_white.svg);
   background-repeat: no-repeat;
   background-size: auto 30px;
-  background-position: center;
-  width: 160px;
+  background-position: left center;
+  width: 145px;
   height: 30px;
   &.change {
     background-image: url(/public/assets/logo_dxne_h_rgb.svg);
