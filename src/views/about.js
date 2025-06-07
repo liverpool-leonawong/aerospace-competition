@@ -2,7 +2,7 @@
 // import Objective from '../components/Home/Objective';
 // import Partners from '../components/Home/Partners';
 import Footer from '../components/common/Footer';
-import { React, useState } from 'react';
+//import { React, useState } from 'react';
 import { useTranslation } from "react-i18next";
 import { ROUTES } from '../definitions';
 import { Link } from 'react-router-dom';

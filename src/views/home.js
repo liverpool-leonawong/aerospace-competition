@@ -8,9 +8,9 @@ import FAQ from '../components/Home/FAQ';
 import Partners from '../components/Home/Partners';
 import Footer from '../components/common/Footer';
 import ScrollSpy from "react-ui-scrollspy";
-import { React, useState } from 'react';
+//import { React, useState } from 'react';
 import { useTranslation } from "react-i18next";
-import { Close } from '@mui/icons-material';
+//import { Close } from '@mui/icons-material';
 import Video from '../components/Home/Video';
 
 const Home = () => {
