@@ -1,0 +1,66 @@
+@tailwind components;
+
+@layer components {
+.btn {
+  @apply px-4 py-2 rounded;
+  &.btn-primary {
+    border: 1px solid white;
+    &.change {
+      border: 1px solid black;
+    }
+    &:hover {
+      background: rgba(255,255,255,0.8);
+      @apply text-black;
+    }
+  }
+}
+.btn-language {
+  @apply text-white cursor-pointer;
+  &.change {
+    @apply text-black;
+  }
+  &.change:hover {
+    @apply text-primary;
+  }
+}
+.btn-sign-in {
+  @apply text-white rounded px-2 py-1;
+  border: 1px solid white;
+  font-size: 14px;
+  &:hover {
+    background: rgba(255,255,255,0.8);
+    @apply text-black;
+    border: 1px solid rgba(255,255,255,0.8);
+  }
+  &.change {
+    @apply text-black;
+    border: 1px solid black;
+  }
+  &.change:hover {
+    @apply bg-primary text-white;
+    border: 1px solid #ff9900;
+  }
+  }
+.btn-download{
+  @apply lowercase text-primary border-primary font-semibold;
+  border: 1px solid;
+  &:hover {
+    color: white;
+    background: #ff9900;
+  }
+}
+.tab {
+  @apply px-4 py-2 text-xl;
+  color: #333333;
+  transition: 0.15s ease-in;
+&.tab-selected {
+  @apply font-semibold;
+  color: #ff9900;
+  border-bottom: 2px solid #ff9900;
+}
+&.tab-unselect {
+  @apply font-normal;
+
+}
+}
+}
