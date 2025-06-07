@@ -1,12 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+bitbucket-pipelines.yml
+.gitignore
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
-
-bitbucket-pipelines.yml
-.gitignore
 
 # testing
 /coverage
